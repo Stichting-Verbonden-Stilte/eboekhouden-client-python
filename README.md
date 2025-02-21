@@ -1,9 +1,18 @@
-# Client for E-Boekhouden API
+# Client for E-Boekhouden API  
 
-**Introduction:**
-> This package provides a Python client for interacting with the E-Boekhouden API. It simplifies authentication, data fetching, and handling of financial records (cost centers, invoices, ledgers, and mutations) while maintaining clear and organized code. Designed for rapid integration and ease of maintenance, it leverages modern logging and error-handling mechanisms.
+## Introduction  
 
-## Example for retrieving Mutations
+This package provides a Python client for interacting with the E-Boekhouden API. It simplifies authentication, data retrieval, and handling of financial records such as cost centers, invoices, ledgers, and mutations while maintaining clear and organized code. Designed for rapid integration and ease of maintenance, it leverages modern logging and error-handling mechanisms.  
+
+Most of the functions focus on retrieving data from the E-Boekhouden API rather than modifying data. For more details about the API, refer to the official [E-Boekhouden API documentation](https://www.e-boekhouden.nl/handleiding/api).  
+
+### Version Support  
+This client currently supports **only v1** of the E-Boekhouden API. There are no plans to support future versions at this time.  
+
+### Contributions  
+This project is actively maintained for internal purposes, and each update will be pushed to the public repository. Contributions are welcome! If you’d like to improve the package, feel free to submit a pull request or open an issue.
+
+## Example | Retrieving Mutations
 
 ```python
 """Example script to process the API."""
